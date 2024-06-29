@@ -18,7 +18,13 @@ public class User : IdentityUser<int>, IEntity<int>
 
     public DateTimeOffset LastLoginDate { get; set; } = DateTimeOffset.Now;
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.Now;
-    
+
+    #region Navigation
+
+    public ICollection<Desktop> Desktops { get; set; } = [];
+
+    #endregion
+
 }
 
 public class UserConfiguration : IEntityTypeConfiguration<User>
@@ -26,6 +32,10 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
     public void Configure(EntityTypeBuilder<User> builder)
     {
         builder.Property(user => user.UserName).IsRequired().HasMaxLength(100);
+
+        builder.HasMany(u => u.Desktops)
+            .WithOne(d => d.Owner)
+            .HasForeignKey(d => d.OwnerUserId);
     }
 }
 

@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto", "Dto\Dto.csproj", "{C288CC6E-320F-408D-AAD8-6BDD7E9C4A30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientBlazor", "ClientBlazor\ClientBlazor.csproj", "{9E84A4D4-ADB6-4C56-A947-39AEA363CA81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientBlazor", "ClientBlazor\ClientBlazor.csproj", "{D8D80CB2-EFBC-4DF1-8B61-26C343373505}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,10 @@ Global
 		{C288CC6E-320F-408D-AAD8-6BDD7E9C4A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C288CC6E-320F-408D-AAD8-6BDD7E9C4A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C288CC6E-320F-408D-AAD8-6BDD7E9C4A30}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9E84A4D4-ADB6-4C56-A947-39AEA363CA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E84A4D4-ADB6-4C56-A947-39AEA363CA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E84A4D4-ADB6-4C56-A947-39AEA363CA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E84A4D4-ADB6-4C56-A947-39AEA363CA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D80CB2-EFBC-4DF1-8B61-26C343373505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D80CB2-EFBC-4DF1-8B61-26C343373505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D80CB2-EFBC-4DF1-8B61-26C343373505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D80CB2-EFBC-4DF1-8B61-26C343373505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
